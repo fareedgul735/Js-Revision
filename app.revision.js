@@ -878,3 +878,142 @@
 //   }
 //   document.getElementById("city").value = city_Output;
 // }
+
+// chapter 51 Reading and setting paragraph text
+
+// function expandPara() {
+//   let expandingPara =
+//     "Slow lorises are a group of several species of trepsirrhine primates which  make up the genus Nycticebus. They have a round head, narrow snout, large eyes, and a variety of  distinctive coloration patterns that are species-dependent. The hands and feet of slow lorises have severalSlow lorises have a toxic bite, a rare trait among mammals.";
+//   document.getElementById("para").innerHTML = expandingPara;
+//   document.getElementById("para").style.color = "black";
+//   document.getElementById("para").style.fontFamily="monospace"
+// }
+
+// function clicking() {
+//   let doc =
+//     "<ol><li>Slow loris</li><li>Fast loris</li><li>Just-right loris</li> <li>Slow loris</li><li>Fast loris</li><li>Just-right loris</li></ol>";
+//   document.getElementById("styling").innerHTML = doc;
+// }
+
+// function cheap() {
+//   document.getElementById("content").innerHTML = "Hello,Fareed";
+
+// }
+
+// function cheaping() {
+//   document.getElementById("content").innerHTML = "Hello,World";
+// ;
+// }
+
+// <!-- chapter 52 Manipulating images and text -->
+
+// function clicking() {
+//   document.getElementById("image").style.display = "none";
+// }
+
+// function makeInvisible() {
+//   document.getElementById("head").className = "heading";
+// }
+
+// function myScript() {
+//   document.getElementById("head").className = "styling2";
+// }
+
+// <!-- chapter 53 Swapping images -->
+
+// function swapPic() {
+//   document.getElementById("swapPicture").src = "laptop-1839876_640.jpg";
+// }
+
+// <!-- chapter 54 Swapping images and setting classes -->
+
+// function changeStyle() {
+//   let chng = document.getElementById("form");
+//   chng = chng.className = "jumbo";
+// }
+
+// function bluring() {
+//   let chng = document.getElementById("form");
+//   chng = chng.className = "normal";
+// }
+
+//  chapter 55 Setting styles//
+
+// function settingField() {
+//   // document.getElementById("image").style.display = "none";
+//   // document.getElementById("image").style.visibility = "hidden";
+//   // document.getElementById("image").style.cssFloat = "right";
+//   // document.getElementById("image").style.margin = "100px 100px 100px 100px ";
+// }
+
+// chapter 56 Target all elements by tag name//
+
+// function targeting() {
+//   let target = document.getElementById("myDiv");
+//   let tEl = target.getElementsByTagName("p");
+//   //   console.log((tEl[2].innerHTML = "hello best city"));
+//   // }
+//   for (let i = 0; i < tEl.length; i++) {
+//     tEl[i].style.fontFamily = "monospace";
+//   }
+// }
+// targeting();
+
+// chapter 57 Target some elements by tag name//
+
+// function targeting() {
+//   let target = document.getElementById("table");
+//   let tEl = target.getElementsByTagName("td");
+
+//   for (let i = 0; i < tEl.length; i++) {
+//     tEl[i].style.backgroundColor = "pink";
+//   }
+// }
+// targeting();
+
+// <!-- chapter 58 The DOM// -->
+
+// chapter 59 The DOM: // Parents and children
+
+// <!-- chapter 60 The DOM: Finding children -->
+
+// function doming() {
+//   let myDiving = document.getElementById("myDiv");
+//   let p = myDiving.childNodes[1];
+//   console.log(p);
+// }
+// doming();
+
+//  chapter 61 Junk artifacts and nodeType
+
+// function junk() {
+//   // let div1 = document.getElementById("myDiv");
+//   let div2 = document.getElementById("yourDiv");
+//   // let checkDiv1 = div1.firstElementChild;
+//   // let checkDiv1 = div1.lastElementChild;
+//   // let checkDiv1 = div1.childNodes[5];
+//   // console.log(checkDiv1);
+//   // let secondDiv = div2.childNodes;
+//   // let secondDiv = div2.parentElement;
+//   // let p = div2.childNodes[2];
+//   let p = div2.childNodes[1];
+//   let check = p.parentNode;
+//   console.log(check, p.nodeType);
+//   // console.log(secondDiv);
+// }
+// junk();
+
+//  chapter 62 More ways to target elements
+
+// function MoreTarget() {
+//   let myTable = document.getElementById("table");
+//   let fRow = document.getElementById("1stRow");
+//   let sRow = document.getElementById("2ndRow");
+//   // let tableChild = myTable.childNodes[1];
+//   // console.log(tableChild.nodeType);
+//   // let rowCheck = fRow.parentNode;
+//   // console.log(rowCheck);
+//   let rowChecking = sRow.childNodes[0];
+//   console.log(rowChecking.nodeType);
+// }
+// MoreTarget();
