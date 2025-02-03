@@ -1017,3 +1017,100 @@
 //   console.log(rowChecking.nodeType);
 // }
 // MoreTarget();
+
+// <!-- chapter 63 The DOM: Getting a target's name -->
+
+// function getting() {
+//   let parentEl = document.getElementById("myDiv");
+//   let elements = parentEl.lastElementChild;
+//   console.log(elements.nodeName.toLowerCase());
+
+//   // let target = elements.nextSibling;
+//   // console.log(target.nodeValue);
+//   // console.log(elements.nodeType);
+//   // console.log(elements.nodeName);
+//   // console.log(elements.nodeValue);
+// }
+
+// getting();
+
+// chapter 64 The DOM: Counting elements
+
+// function counting() {
+//   let ulParent = document.getElementById("list");
+//   let childList = ulParent.childNodes[1];
+//   // console.log(childList);
+//   // for (let i = 0; i < childList.length; i++) {
+//   //   if (childList[i].innerHTML === "") {
+//   //     childList[i].innerHTML = "ComingSoon!";
+//   //   }
+//   // }
+//   // console.log(childList.nodeName.toLowerCase());
+// }
+
+// counting();
+
+// <!-- chapter 65 The DOM: Attributes -->
+
+// function attri() {
+//   let mydiv = document.getElementById("div");
+//   // let attring = mydiv.hasAttribute("style");
+//   // let attring = mydiv.hasAttribute("class");
+//   // console.log(attring);
+//   // let  childAttri = document.getElementById('para');
+//   // console.log(childAttri.hasAttribute("id"));
+//   // let checkDiv = mydiv.getAttribute("class");
+//   // console.log(checkDiv);
+//   let myAttri = mydiv.setAttribute("class", "divStyle");
+//   console.log(myAttri);
+// }
+
+// attri();
+
+// chapter 66 The DOM: Attribute names and values
+
+// function attriName() {
+//   // let parentTable = document.getElementById("table");
+//   // let checking = parentTable.childNodes;
+//   // let checking = parentTable.attributes;
+//   // let checking = parentTable.children;
+//   // console.log(checking.length);
+//   let y = document.getElementById("row1");
+//   let z = y.childNodes[1].nextSibling
+//   console.log(z.nodeName.toLowerCase());
+// }
+
+// attriName();
+
+// chapter 67 The DOM: Adding nodes
+
+// function create() {
+//   let myDiv = document.getElementById("creating");
+//   myDiv.setAttribute("class", "divStyle");
+//   let addEl = document.createElement("p");
+//   let addText = document.createTextNode("iam adding element !");
+
+//   myDiv.appendChild(addEl);
+//   addEl.appendChild(addText);
+// }
+// create();
+
+// chapter 68 The DOM: Inserting nodes
+
+// function iserting() {
+//   let myDiv = document.getElementById("insert");
+//   myDiv.setAttribute("class", "divStyle");
+//   let addEl = document.createElement("h1");
+//   let addText = document.createTextNode("iam heading!");
+//   myDiv.appendChild(addEl);
+//   addEl.appendChild(addText);
+// }
+// iserting();
+
+// function insert() {
+//   let x = document.getElementById("insert");
+//   let y = x.childNodes[3];
+//   let z = x.removeChild(y);
+//   console.log(z);
+// }
+// insert();
