@@ -1138,3 +1138,14 @@
 // }
 
 // insert();
+
+let obj = {
+  fName: "fareed",
+  lName: "gul",
+  education: "1st Year",
+  experience: "frontend developer",
+};
+
+for (const key in obj) {
+  console.log(obj[key]);
+}
