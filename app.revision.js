@@ -1114,3 +1114,27 @@
 //   console.log(z);
 // }
 // insert();
+
+// function insert() {
+//   let createEl = document.createElement("p");
+//   let checkQua = createEl.insertBefore("createEl");
+//   console.log(checkQua);
+// }
+// insert();
+
+// function insert() {
+//   // let create = document.createElement("h1");
+//   // let createText = document.createTextNode("I am Paragraph!");
+//   // create.appendChild(createText);
+//   let create = "hello,iam good boy!";
+//   let myDiv = document.getElementById("parentDiv");
+//   myDiv.insertAdjacentText("afterbegin", create);
+
+//   // myDiv.appendChild(create);
+//   // create.appendChild(createText);
+
+//   // let target = document.getElementById("parentDiv");
+//   // target.insertBefore(createText, target.childNodes[0]);
+// }
+
+// insert();
